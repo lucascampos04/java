@@ -18,7 +18,12 @@ public class TiposPrimitivosDeVariaveis {
         System.out.println("---------------------------------");
         System.out.println("Tamanho de cada variavel");
         System.out.println("byte = 1 byte \nshort = 2 byte \nint = 4 byte \nlong = 8 byte \nfloat = 4 byte" +
-                "\ndouble = 8 byte \nboolean = 1 byte \nchar = 2 byre");
+                "\ndouble = 8 byte \nboolean = 1 byte \nchar = 2 byte");
+
+        // (Tipo da variavel) força o tamanho do variavel - Casting
+        int age = (int)10000000000L;
+        System.out.println(age);
+
 
 
     }
