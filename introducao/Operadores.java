@@ -49,5 +49,23 @@ public class Operadores {
             System.out.println("Voce não tem direito ao salario minimo");
         }
 
+        System.out.println("Operadores de atribuição \n= | += | -= | *= | /= | %= | ++ | -- |");
+        int bonus = 0;
+        bonus += 10;
+        bonus -= 10;
+        bonus *= 10;
+        bonus /= 10;
+        bonus %= 10;
+
+        int numero1 = 0;
+        numero1++;
+        numero1--;
+        numero1++;
+        System.out.println(numero1);
+
+
+
+
+
     }
 }
