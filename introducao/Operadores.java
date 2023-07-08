@@ -1,6 +1,6 @@
 package introducao;
 
-public class OperadoresAritimeticos {
+public class Operadores {
     public static void main(String[] args) {
         System.out.println("Operadores Padrão. \n+ | - | * | / | ** | %");
 
@@ -30,10 +30,24 @@ public class OperadoresAritimeticos {
         boolean isDez2 = 10 >= 20;
         boolean isDez3 = 10 <= 20;
 
-
         System.out.println(isDez);
         System.out.println(isDez1);
         System.out.println(isDez2);
         System.out.println(isDez3);
+
+        System.out.println("Operadores logicos \n&& (and) |  || (or) | !");
+
+        int idade = 39;
+        float salario = 3400F;
+
+        boolean isIdade = idade >= 35 && salario >= 4612;
+        boolean isDentro = idade < 30 && salario >= 3381;
+
+        if (idade >= 35 || salario >= 4612){
+            System.out.println("Voce tem direito ao salario minimo");
+        } else {
+            System.out.println("Voce não tem direito ao salario minimo");
+        }
+
     }
 }
