@@ -6,6 +6,20 @@ public class TiposPrimitivosDeVariaveis {
         System.out.println("---------------------------------");
         System.out.println("int, double, float, char, byte, short, long, boolean");
 
+        int idade = 19;
+        byte idadeByte = 19;
+        short idadeShort = 19;
+        boolean verdadeiro = true;
+        boolean falso = false;
+        char nome = 'M';
+        double salario = 2000;
+        float salarioFloat = 3000;
+
+        System.out.println("---------------------------------");
+        System.out.println("Tamanho de cada variavel");
+        System.out.println("byte = 1 byte \nshort = 2 byte \nint = 4 byte \nlong = 8 byte \nfloat = 4 byte" +
+                "\ndouble = 8 byte \nboolean = 1 byte \nchar = 2 byre");
+
 
     }
 }
