@@ -18,7 +18,22 @@ public class OperadoresAritimeticos {
         double r = 30;
         System.out.println(a / r);
 
+        System.out.println("Operadores relacionais ");
+
+        int resto = 30 % 2;
+        System.out.println(resto);
+
+        System.out.println("Operador de comparação \n< > | <= | >= | == | !=");
+
+        boolean isDez = 10 != 20;
+        boolean isDez1 = 10 == 20;
+        boolean isDez2 = 10 >= 20;
+        boolean isDez3 = 10 <= 20;
 
 
+        System.out.println(isDez);
+        System.out.println(isDez1);
+        System.out.println(isDez2);
+        System.out.println(isDez3);
     }
 }
