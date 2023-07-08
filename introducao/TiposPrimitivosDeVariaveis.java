@@ -24,6 +24,13 @@ public class TiposPrimitivosDeVariaveis {
         int age = (int)10000000000L;
         System.out.println(age);
 
+        String name = "Lucas Oliviera Campos";
+        String endereco = "Rua uuatorze de Novembro, 11";
+        double salary = 2023.52;
+        String data = "10/11/2023";
+
+        System.out.printf("Eu %s, morando na rua %s, confirmo que recebi o salário de %f, na data %s", name,
+                endereco, salary, data);
 
 
     }
