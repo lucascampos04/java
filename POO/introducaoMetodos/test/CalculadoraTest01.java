@@ -18,5 +18,7 @@ public class CalculadoraTest01 {
         System.out.println("Dividindo");
         calculadora.dividiDoisNumeros();
 
+        System.out.println("Parametros");
+        calculadora.soma(2, 2);
     }
 }
