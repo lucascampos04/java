@@ -67,6 +67,24 @@ public class Calculadora {
         System.out.println(n1/n2);
     }
 
+    public void somaArray(int[] numeros){
+        int soma = 0;
+        for(int num: numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    // VarArgs
+    public void somaVarargs(double... numeros){
+        double soma = 0;
+        for (double num: numeros){
+            soma+=num;
+        }
+        System.out.println(soma);
+    }
+
 }
+
 
 
