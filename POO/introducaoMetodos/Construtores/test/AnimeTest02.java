@@ -1,6 +1,8 @@
-package POO.introducaoMetodos.SobrecragaMetodos.dominio;
+package POO.introducaoMetodos.Construtores.test;
 
-public class Anime {
+import POO.introducaoMetodos.Construtores.dominio.Anime;
+
+public class AnimeTest02 {
     private String tipo;
     private String nome;
     private int episodios;
@@ -13,18 +15,20 @@ public class Anime {
         System.out.println("Genero do anime: " + this.genero);
     }
 
-    // Sobrecarga de metodos
-    public void init(String nome, String tipo, int episodios){
+    // Construtor
+    public AnimeTest02(String nome, String tipo, int episodios, String genero){
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
-    }
-
-    // Sobrecarga de metodos
-    public void init(String nome, String tipo, int episodios, String genero){
-        this.init(nome, tipo, episodios);
         this.genero = genero;
     }
+
+    // Sobrecarga de construtores
+    public AnimeTest02(){
+
+    }
+
+
     public void setNome(String nome) {
         this.nome = nome;
     }
