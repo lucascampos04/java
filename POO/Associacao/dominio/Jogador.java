@@ -1,5 +1,6 @@
 package POO.Associacao.dominio;
 
+<<<<<<< HEAD
 import POO.AssociacaoUnidirecional.dominio.Time;
 
 public class Jogador {
@@ -20,6 +21,14 @@ public class Jogador {
         this.time = time;
     }
 
+=======
+public class Jogador {
+    private String nome;
+
+    public void nextUp(){
+        System.out.println(this.nome);
+    }
+>>>>>>> 2ab646b (Associação pt1)
     public Jogador(String nome){
         this.nome = nome;
     }
