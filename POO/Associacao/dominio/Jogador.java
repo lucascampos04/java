@@ -1,5 +1,7 @@
 package POO.Associacao.dominio;
 
+import POO.AssociacaoUnidirecional.dominio.Time;
+
 public class Jogador {
     private String nome;
 
@@ -14,5 +16,8 @@ public class Jogador {
     }
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public void setTime(Time time) {
     }
 }
