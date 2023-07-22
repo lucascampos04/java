@@ -5,6 +5,10 @@ public class Carro {
     private double velocidadeMaxima;
     public static double velocidadeLimite = 250;
 
+    public Carro() {
+
+    }
+
     public void imprime(){
         System.out.println("-----------");
         System.out.println("Nome: " + this.nome);
