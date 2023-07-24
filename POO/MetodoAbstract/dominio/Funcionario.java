@@ -1,6 +1,6 @@
 package POO.MetodoAbstract.dominio;
 
-public abstract class Funcionario {
+public abstract class Funcionario extends Pessoa{
     protected String nome;
     protected double salario;
 
@@ -8,6 +8,11 @@ public abstract class Funcionario {
         this.nome = nome;
         this.salario = salario;
         calculaBonus();
+    }
+
+    @Override
+    public void nextUp() {
+        System.out.println("Imprimindo ");
     }
 
     @Override
