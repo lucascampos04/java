@@ -13,7 +13,7 @@ public class ProdutoTest01 {
         CalculadoraImposto.calcucarImposto(computador);
         System.out.println("--------------------------");
         CalculadoraImposto.calcucarImposto(tomate);
-        System.out.println("-------------------------");
+        System.out.println("--------------------------");
         CalculadoraImposto.calcucarImposto(tv);
 
     }
