@@ -1,4 +1,4 @@
-package POO.Exception.test;
+package POO.Exception.error.test;
 
 public class StackOverflowTest01 {
 
