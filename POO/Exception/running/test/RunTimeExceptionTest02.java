@@ -11,7 +11,7 @@ public class RunTimeExceptionTest02 {
     }
     private static int divisao(int a, int b) throws IllegalArgumentException{
         if(b == 0){
-            // Exception
+            // Usamos throw new para lançar um exceção
             throw new IllegalArgumentException("Argumento invalido");
         }
         return a/b;
