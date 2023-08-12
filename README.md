@@ -1,5 +1,5 @@
-Java ❤😎☕
-Descrição
+## Java ❤😎☕
+
 Bem-vindo ao meu repositório de aprendizado de Java! Este é o lugar onde vou documentar minha jornada na programação Java, registrando minhas anotações e exercícios.
 
 Estrutura do Repositório
