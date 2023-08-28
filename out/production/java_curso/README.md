@@ -1,23 +1,23 @@
-# Java  ❤😎☕
+# Java ❤😎☕
 
-## Description
-Welcome to my Java learning repository! This is the place where I will document my journey in Java programming, recording my notes and exercises.
+## Descrição
+Bem-vindo ao meu repositório de aprendizado de Java! Este é o lugar onde vou documentar minha jornada na programação Java, registrando minhas anotações e exercícios.
 
-## Repository Structure
-- `/introduction`: In this folder, you will find theoretical summaries of the lessons, covering fundamental Java concepts such as variables, control structures, classes, objects, and more.
-- `/OOP (Object-Oriented Programming)`: Here, you will find the fundamental pillars of Object-Oriented Programming.
-- `Branch - exercises`: In the exercises folder, practical challenges will be available for me to apply the knowledge acquired during the lessons and enhance my Java skills.
+## Estrutura do Repositório
+- `/introducao`: Nesta pasta, você encontrará resumos teóricos das lições, abrangendo conceitos fundamentais de Java, como variáveis, estruturas de controle, classes, objetos e muito mais.
+- `/OOP (Programação Orientada a Objetos)`: Aqui, você encontrará os pilares fundamentais da Programação Orientada a Objetos.
+- `Branch - exercicios`: Na pasta de exercícios, desafios práticos estarão disponíveis para que eu aplique o conhecimento adquirido durante as lições e aprimore minhas habilidades em Java.
 
-## Objective
-The main goal of this repository is to track my progress in learning Java. By keeping a record of the lessons and projects developed, I intend to have a reference for future consultations and solidify my knowledge in the language.
+## Objetivo
+O principal objetivo deste repositório é acompanhar meu progresso na aprendizagem de Java. Mantendo um registro das lições e projetos desenvolvidos, pretendo ter uma referência para consultas futuras e solidificar meu conhecimento na linguagem.
 
-## Instructions
-If you wish to follow my lessons or even learn along, feel free to clone this repository to your local development environment. You can use the following command:
+## Instruções
+Se você deseja acompanhar minhas lições ou até mesmo aprender junto, fique à vontade para clonar este repositório em seu ambiente de desenvolvimento local. Você pode usar o seguinte comando:
 
 ```
 git clone https://github.com/lucascampos04/java.git
 ```
 
-Feel free to explore the OOP (Object-Oriented Programming) folder to learn about the fundamental pillars of Java's Object-Oriented Programming.
+Sinta-se à vontade para explorar a pasta de Programação Orientada a Objetos para aprender sobre os pilares fundamentais da Programação Orientada a Objetos em Java.
 
-Enjoy the journey of Java programming with me! 😊👍
+Aproveite a jornada de programação em Java comigo! 😊👍
